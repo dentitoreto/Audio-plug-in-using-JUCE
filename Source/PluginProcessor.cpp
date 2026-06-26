@@ -22,6 +22,12 @@ Project13AudioProcessor::Project13AudioProcessor()
                        )
 #endif
 {
+    /*for (auto* ptr : dspInstances)
+    {
+        ptr->reset();
+        ptr->process(context);
+        ptr->prepare(spec);
+    }*/
 }
 
 Project13AudioProcessor::~Project13AudioProcessor()
